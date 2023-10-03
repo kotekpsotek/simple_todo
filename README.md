@@ -1,38 +1,30 @@
-# create-svelte
+# 📝 TODO Application writed in nowdays state-of-the-art technologies
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## What is TODO app?
+I think that everybody can extract some type of list with schedule "What to do first" order, hereby this is such type of list nevertheless writed entirely not on paper but on computer, above that my TODO list is writed by usage of loved technologies: Rust, TypeScript, Svelte+Kit, Tailwindcss.
 
-## Creating a project
+## Whether I can use it for free?
+Yep. This application is suited for propertiary usage completly for free due to MIT license (look below) and without any malicious snippets
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Technologies engaged:
+<table>
+    <tr>
+        <td>Rust</td>
+        <td>✅</td>
+    </tr>
+    <tr>
+        <td>TypeScript</td>
+        <td>✅</td>
+    </tr>
+    <tr>
+        <td>SvelteKit</td>
+        <td>✅</td>
+    </tr>
+    <tr>
+        <td>Tailwindcss</td>
+        <td>✅</td>
+    </tr>
+</table>
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## LICENSE
+I wrote it under the MIT License
